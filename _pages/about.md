@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-
     <p>:mailbox_with_mail:</p>
     <p style="font-family: sans-serif;font-size: 14px">winnyshang@gmail.com</p>
 
@@ -20,7 +19,7 @@ social: false # includes social icons at the bottom of the page
 selected_projects: false
 ---
 
-Hi there! I am a researcher passionate about exploring the synergies between `natural and machine intelligence` . 
+Hi there! I am a researcher passionate about exploring the synergies between `natural and machine intelligence` .
 
 In 2020, I earned my master's degree at Macau University of Science and Technology, under the guidance of [Prof. Hon-Cheng Wong](https://www.must.edu.mo/en/scse/staff/wonghoncheng). Subsequently, I worked as an Applied Researcher at [Tencent](https://www.tencent.com/en-us) in the Feedback team (led by Sharon Zheng), where I contributed to improving the engineering efficiency of over hundreds of businesses. In 2018, I graduated from Beijing Normal University (Zhuhai) with a B. E. degree in Computer Science and Engineering, advised by Prof. Jing Huang.
 
