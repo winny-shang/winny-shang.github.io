@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: 📊Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: This page is in progress!
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: [work, research, fun]
 horizontal: false
 ---
 
@@ -20,17 +20,21 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
+
     <div class="row row-cols-2">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
+
   </div>
   {% else %}
   <div class="grid">
+
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
+
   </div>
   {% endif %}
   {% endfor %}
@@ -46,17 +50,21 @@ horizontal: false
 {% if page.horizontal %}
 
   <div class="container">
+
     <div class="row row-cols-2">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
+
   </div>
   {% else %}
   <div class="grid">
+
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
+
   </div>
   {% endif %}
 {% endif %}
