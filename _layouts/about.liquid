@@ -39,11 +39,12 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+    <br>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">:newspaper: News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -51,15 +52,23 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">:memo: Latest Posts</a>
       </h2>
       {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected projects -->
+    {% if page.selected_projects %}
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">:bar_chart: Selected Projects</a>
+      </h2>
+      {% include selected_projects.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">:bookmark_tabs: Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

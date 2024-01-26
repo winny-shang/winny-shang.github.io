@@ -1,26 +1,29 @@
 ---
 layout: about
-title: about
+title: ⭐About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 商韵怡, pronounced as /ynˋiˊ sɑŋˉ/
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+    <p>:mailbox_with_mail:</p>
+    <p style="font-family: sans-serif;font-size: 14px">winnyshang@gmail.com</p>
+
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+latest_posts: false # includes a list of the newest posts
+social: false # includes social icons at the bottom of the page
+selected_projects: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! I am a researcher passionate about exploring the synergies between `natural and machine intelligence` . 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In 2020, I earned my master's degree at Macau University of Science and Technology, under the guidance of [Prof. Hon-Cheng Wong](https://www.must.edu.mo/en/scse/staff/wonghoncheng). Subsequently, I worked as an Applied Researcher at [Tencent](https://www.tencent.com/en-us) in the Feedback team (led by Sharon Zheng), where I contributed to improving the engineering efficiency of over hundreds of businesses. In 2018, I graduated from Beijing Normal University (Zhuhai) with a B. E. degree in Computer Science and Engineering, advised by Prof. Jing Huang.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current research interests lie at the intersection of `Natural Language Processing, Computer Vision, Human-Computer Interaction, Cognitive computing and Reinforcement Learning` . My goals are to (1) enhance the comprehension of natural intelligence by leveraging machine intelligence, (2) utilize insights from natural intelligence to advance machine intelligence technology, and (3) leverage these advancements to develop safer and more foresighted applications. For more details, you can refer to my [Research Statement](https://winny-shang.github.io/assets/pdf/Research Statement_Yunyi Shang.pdf)(Dec 2023). However, my research plan is not fixed in place, I am adaptable and open to exploring new and diverse opportunities.
+
+:sparkles: **I am seeking a Ph. D. position in the 2024 cycle!** If you think I might be a fit, I’d love to hear from you.
