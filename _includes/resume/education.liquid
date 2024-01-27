@@ -34,19 +34,31 @@
             </tbody>
           </table>
         </div>
-        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.studyType }}</a>
-          </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
-          <ul class="items">
-            {% for item in content.courses %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
-            {% endfor %}
-          </ul>
+        <p>
+          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              <i class="fa fa-bank"></i>
+              {{ content.institution }}
+            </h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.90rem">
+              {{ content.area }} 
+              <span style="font-style: italic">
+                {{ content.studyType }}
+              </span>
+            </h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.90rem"> {{ content.score }} </h6>
+          </p>
+          <p>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"> {{ "Core Courses:" }} </h6>
+            <ul class="items">
+              
+              {% for item in content.courses %}
+                <li>
+                  <span class="item" style="font-size: 0.95rem">{{ item }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          </p>
         </div>
       </div>
     </li>
