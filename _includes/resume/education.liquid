@@ -41,17 +41,16 @@
               {{ content.institution }}
             </h6>
             <h6 class="ml-1 ml-md-4" style="font-size: 0.90rem">
-              {{ content.area }} 
+              {{ content.area }}
               <span style="font-style: italic">
                 {{ content.studyType }}
               </span>
             </h6>
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.90rem"> {{ content.score }} </h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.90rem">{{ content.score }}</h6>
           </p>
           <p>
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"> {{ "Core Courses:" }} </h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ 'Core Courses:' }}</h6>
             <ul class="items">
-              
               {% for item in content.courses %}
                 <li>
                   <span class="item" style="font-size: 0.95rem">{{ item }}</span>
