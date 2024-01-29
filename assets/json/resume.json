@@ -138,109 +138,229 @@
       "number": "CN2022115234904"
     }
   ],
-  "volunteer": [
+  "skills": [
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Programming Languages",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["C, C++, C#, Python, Java, Golang, Matlab"]
+    },
+    {
+      "name": "Machine Learning/Deep learning",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["PyTorch, TensorFlow, Scikit-Learn"]
+    },
+    {
+      "name": "Framework",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Remote Procedure Call(RPC)", "Model View Controller(MVC)", "Domain-Driven Design(DDD)"]
+    },
+    {
+      "name": "Database",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["MySQL", "Redis", "MongoDB"]
+    },
+    {
+      "name": "Others",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Android Studio", "Unity"]
+    }
+  ],
+  "teaching": [
+    {
+      "name": "Computer Graphics",
+      "courseDate": "2019 Fall",
+      "description": "Teaching assistant"
+    },
+    {
+      "name": "Discrete Mathematics",
+      "courseDate": "2019 Spring",
+      "description": "Grader"
+    },
+    {
+      "name": "Data Structure",
+      "courseDate": "2018 Fall",
+      "description": "Grader"
+    },
+    {
+      "name": "Computer Graphics",
+      "courseDate": "2018 Spring",
+      "description": "Teaching assistant"
+    },
+    {
+      "name": "Computer Graphics",
+      "courseDate": "2017 Fall",
+      "description": "Teaching assistant"
+    },
+    {
+      "name": "Principles of Computer Organization Practice",
+      "courseDate": "2017 Spring",
+      "description": "Teaching assistant"
+    },
+    {
+      "name": "Principles of Computer Organization Practice",
+      "courseDate": "2016 Fall",
+      "description": "Teaching assistant"
+    },
+    {
+      "name": "C programming",
+      "courseDate": "2016 Spring",
+      "description": "Grader"
+    },
+    {
+      "name": "C programming",
+      "courseDate": "2015 Fall",
+      "description": "Grader"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Graduate Scholarship",
+      "date": "2018-2020",
+      "awarder": "awarded by Macau University of Science and Technology",
+      "summary": "50% tuition fee waiver"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Outstanding Academic Scholarship",
+      "date": "2015,2016,2017",
+      "awarder": "awarded by Beijing Normal University, Zhuhai",
+      "summary": "Ranking: 1.50%"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Third Prize in the Guangdong Provincial College Computer Works Competition",
+      "date": "2018.06",
+      "awarder": "awarded by the Guangdong Computer Society"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "title": "Outstanding Graduate",
+      "date": "2018.06",
+      "awarder": "awarded by Beijing Normal University, Zhuhai"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "title": "Outstanding Graduation Thesis",
+      "date": "2018.06",
+      "awarder": "awarded by Beijing Normal University, Zhuhai"
     },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
 
-  "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "title": "IT Festival Second Prize",
+      "date": "2018",
+      "awarder": "awarded by Beijing Normal University, Zhuhai"
+    },
+    {
+      "title": "ACM Programming Contest Excellence Award",
+      "date": "2016",
+      "awarder": "awarded by Beijing Normal University, Zhuhai"
+    },
+    {
+      "title": "Excellent Community Work Award",
+      "date": "2015,2016,2017",
+      "awarder": "awarded by Beijing Normal University, Zhuhai"
+    },
+    {
+      "title": "Outstanding Peer Mentor",
+      "date": "2016.10",
+      "awarder": "awarded by Beijing Normal University, Zhuhai"
+    }
+  ],
+  "extracurricular": [
+    {
+      "name": "BNU High Tech Team",
+      "position": "Team Leader",
+      "startDate": "2017",
+      "endDate": "2018",
+      "description": "The team is dedicated to the research, development, and demonstration of virtual reality technologies such as HoloLens, HTC VIVE, Oculus, 3D printing, mobile VR/AR, and XBOX.",
+      "highlights": [
+        "Coordinated and communicated with team members to organize and supervise work plans.",
+        "Led several projects, including an AR map navigation system based on iOS (national), a VR fire simulation project (national), a unique 3D printing initiative (provincial), an HTC-based smart home system (university), and an AR word recognition card based on the Android system (commercial).",
+        "Running a VR experience store for the public and popularizing XR technology for non-specialized students."
+      ]
+    },
+    {
+      "name": "Community Service",
+      "position": "Lead Organizer",
+      "startDate": "2015",
+      "endDate": "2017",
+      "highlights": [
+        "Conducted activities such as assisting seniors with smartphone usage, educating elementary students on internet resources and safety, providing academic support to teenagers, engaging in community gardening projects.",
+        "Leverage the professional advantages of our information technology education, narrowing the cognitive gap between different age groups and fostering mutual assistance and communication within the community.",
+        "Led a research project on the integration of information technology education in social service. Explored ways to improve content and organization of university social service projects."
+      ]
+    },
+    {
+      "name": "School of Information Technology Students' Union",
+      "position": "Director of Public Relations",
+      "startDate": "2015",
+      "endDate": "2016",
+      "highlights": [
+        "Actively pursued and secured sponsorships for various events and activities, successfully obtaining the necessary financial support and resources to enhance the quality and impact of student initiatives.",
+        "Demonstrated strong organizational and communication skills in effectively managing the official public WeChat account of the Students' Union. Regularly published engaging and informative content, attracting a large following and increasing visibility for the organization.",
+        "Took on the responsibility of organizing the Student Representative Assembly, a significant gathering of student representatives. Oversaw the logistical aspects of the event, including venue arrangement, scheduling, and coordinating with participants. Fostered an inclusive and productive environment for open discussions, ensuring that student voices were heard and valuable feedback was shared."
+      ]
+    },
+    {
+      "name": "Peer Mentor",
+      "description": "Provided guidance to first-year students in academic and personal aspects.",
+      "startDate": "2015",
+      "endDate": "2016",
+      "highlights": [
+        "Assisted in course selection, study strategies, and time management. Facilitated the integration of new students into the academic environment.",
+        "Addressed various aspects of student life, including campus culture and resource utilization.",
+        "Organized social events to foster a sense of community among freshmen. "
+      ]
+    },
+    {
+      "name": "Debate Team",
+      "startDate": "2014",
+      "endDate": "2016",
+      "highlights": [
+        "Selected as a member of the university-level debate team during freshman year.",
+        "Promoted to the position of the college debate team coach in sophomore year. Guided and mentored debaters, emphasizing teamwork and critical thinking.",
+        "Contributed for three consecutive years to the organization of the International Chinese Debate Championship, ensuring a platform for debaters worldwide to engage in meaningful exchanges of ideas and perspectives."
+      ]
+    },
+    {
+      "name": "Class Monitor",
+      "startDate": "2014",
+      "endDate": "2018",
+      "highlights": [
+        "Coordinated class activities and facilitated communication between students and faculty.",
+        "Successfully elected as a major leader. Represented the interests and concerns of peers within the academic discipline.",
+        "Engaged in decision-making processes and collaborated with faculty members."
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "name": "Summer Programs",
+      "activityDate": "2016",
+      "location": "Australia",
+      "description": "at Monash University and Macquarie University",
+      "highlights": [
+        "Being selected for the School Education Development Fund",
+        "Attained High Distinction(HD) in coursework during international programs. Demonstrated dedication to rigorous study and success in a competitive academic setting."
+      ]
+    },
+    {
+      "name": "International Student Volunteer",
+      "activityDate": "2017",
+      "location": "Los Angeles, USA",
+      "description": "at SIGGRAPH2017",
+      "highlights": [
+        "Engaged in diverse volunteer responsibilities, including event logistics and attendee interactions.",
+        "Immersed in the world of computer graphics, interactive techniques, and emerging technologies. Witnessed cutting-edge advancements in the field."
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "language": "Mandarin and Cantonese",
+      "fluency": "Native speaker",
+      "icon": ""
     }
   ]
 }

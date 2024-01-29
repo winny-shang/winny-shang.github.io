@@ -89,12 +89,12 @@ layout: default
                   {% include resume/work.liquid %}
                 {% when 'intern' %}
                   {% include resume/intern.liquid %}
-                {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
                 {% when 'patents' %}
                   {% include resume/patents.liquid %}
+                {% when 'teaching' %}
+                  {% include resume/teaching.liquid %}
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
                 {% when 'skills' %}
@@ -105,10 +105,10 @@ layout: default
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
                   {% include resume/interests.liquid %}
-                {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
-                {% when 'references' %}
-                  {% include resume/references.liquid %}
+                {% when 'extracurricular' %}
+                  {% include resume/extracurricular.liquid %}
+                {% when 'activities' %}
+                  {% include resume/activities.liquid %}
                 {% else %}
 
               {% endcase %}
