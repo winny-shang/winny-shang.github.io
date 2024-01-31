@@ -6,7 +6,7 @@ subtitle: 商韵怡, pronounced as /ynˋiˊ sɑŋˉ/
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: winnyshang.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>:mailbox_with_mail:</p>
