@@ -2,10 +2,10 @@
 layout: page
 title: 📊Projects
 permalink: /projects/
-description: This page is in progress!
+description: More details coming soon!
 nav: true
 nav_order: 2
-display_categories: [work, research, fun]
+display_categories: [work, research, others]
 horizontal: false
 ---
 

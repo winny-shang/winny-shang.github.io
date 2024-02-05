@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Automatic Portrait Image Pixelization
+description: Maintaining sharp boundaries in low-resolution while using a limited color range to convey the image content.
+img: assets/img/publication_preview/pixel_preview.png
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 

@@ -603,7 +603,10 @@ footer.sticky-bottom {
 
   .card {
     img {
-      width: 100%;
+      width: 150px;
+      padding-top: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
   }
 
@@ -619,7 +622,8 @@ footer.sticky-bottom {
 
   .grid-sizer,
   .grid-item {
-    width: 250px;
+    width: 100%;
+    height: auto;
     margin-bottom: 10px;
   }
 
