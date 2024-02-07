@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How and Why are different in nature
-date: 2024-01-05 00:00:00-0000
+date: 2024-01-04 00:00:00-0000
 categories: bookreviews
 ---
 
